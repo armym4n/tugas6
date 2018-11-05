@@ -20,8 +20,6 @@ interface barang{
     void jelas1();
     
     void gunakan1();
-    
-
 }
 
 
@@ -54,11 +52,6 @@ class baling implements barang{
     public void data() {
         System.out.println("1. Baling-baling bambu");
     }
-
-  
-
-    
-
 }
 
 class pintu implements barang{
@@ -82,13 +75,9 @@ class pintu implements barang{
     public void data() {
         System.out.println("2. Pintu kemana saja");
     }
-
-
-
 }
 
 class mesin implements barang{
-
     @Override
     public void berat1() {
          System.out.println("6kg");
@@ -108,13 +97,9 @@ class mesin implements barang{
     public void data() {
         System.out.println("3. Mesin waktu");
     }
-
-
-
 }
         
 class roti implements barang{
-
     @Override
     public void berat1() {
         System.out.println("0.2kg");
@@ -134,12 +119,9 @@ class roti implements barang{
     public void data() {
         System.out.println("4. Roti pengingat");
     }
-
-
 }
         
 class koyaku implements barang{
-
     @Override
     public void berat1() {
          System.out.println("0.2kg");
@@ -159,11 +141,9 @@ class koyaku implements barang{
     public void data() {
         System.out.println("5. Konyaku penerjemah");
     }
-
 }
         
 class kamera implements barang{
-
     @Override
     public void berat1() {
         System.out.println("0.8kg");
@@ -183,15 +163,17 @@ class kamera implements barang{
     public void data() {
         System.out.println("6. Kamera pengganti baju");
     }
-
-
 }
 
 
-
-
-
 public class Materi6 {
+    
+    /*
+    * Function
+    */
+    static void sembunyikan(barang itemBarang){
+        
+    }
 
     /**
      * @param args the command line arguments
